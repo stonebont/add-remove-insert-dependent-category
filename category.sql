@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: Dec 11, 2025 at 12:10 PM
+-- Generation Time: Dec 11, 2025 at 02:30 PM
 -- Server version: 10.5.29-MariaDB
 -- PHP Version: 8.4.14
 
@@ -43,24 +43,22 @@ INSERT INTO `category` (`category_id`, `category_name`, `parent_category_id`) VA
 (3, 'Handmade', 0),
 (4, 'Chemicals', 0),
 (5, 'Food', 0),
-(6, 'Inorganic chemicals', 2),
-(7, 'Organic Chemicals', 2),
-(8, 'Electronics', 1),
+(6, 'Inorganic chemicals', 4),
+(7, 'Organic Chemicals', 4),
 (9, 'Laptop', 1),
 (10, 'Dell', 1),
-(11, 'i3 Processor', 0),
-(12, 'i5 Processors', 0),
-(13, 'i7 Processors', 0),
-(14, 'Epoxy', 1),
-(15, 'Fine Chemicals', 2),
-(16, 'Mobile', 3),
-(17, 'Sensors', 3),
-(18, 'Textile', 4),
-(19, 'Fruits', 4),
-(20, 'Vegetables', 4),
-(21, 'Safety Shoes', 5),
-(22, 'Uniform', 5),
-(23, 'Electronics  Computers', 0);
+(11, 'i3 Processor', 1),
+(12, 'i5 Processors', 1),
+(13, 'i7 Processors', 1),
+(14, 'Epoxy', 2),
+(15, 'Fine Chemicals', 4),
+(16, 'Mobile', 1),
+(17, 'Sensors', 1),
+(18, 'Textile', 3),
+(19, 'Fruits', 5),
+(20, 'Vegetables', 5),
+(21, 'Safety Shoes', 2),
+(22, 'Uniform', 3);
 
 --
 -- Indexes for dumped tables

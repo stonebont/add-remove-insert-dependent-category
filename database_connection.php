@@ -2,7 +2,7 @@
 
 //database_connection.php
 
-$connect = new PDO("mysql:host=localhost; dbname=stonebon_weblesson;", "stonebon_uweblesson", "Bismillah123!");
+$connect = new PDO("mysql:host=localhost; dbname=your_database;", "your_username", "your_password");
 
 function fill_select_box($connect, $category_id)
 {
@@ -26,5 +26,6 @@ function fill_select_box($connect, $category_id)
 
  return $output;
 }
+
 
 ?>
